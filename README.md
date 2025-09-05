@@ -39,6 +39,16 @@ book-explorer/
 └── docker-compose.yml   # Docker configuration
 ```
 
+## One-Click Launch Options
+
+Choose one of the following files based on your system:
+
+| Script File         | Platform            | Description                                                                                    |
+| ------------------- | ------------------- | ---------------------------------------------------------------------------------------------- |
+| **oneClickRun.cmd** | Windows CMD         | Opens 3 CMD terminals and runs frontend, backend, and scraper. **(Recommended)**               |
+| oneClickRun.ps1     | Windows PowerShell  | ame as above, using PowerShell windows                                                         |
+| oneClickRun.sh      | Linux Bash terminal | This version uses x-terminal-emulator, which works on most Debian-based systems (like Ubuntu). |
+
 ## Installation & Setup
 
 ### Prerequisites
